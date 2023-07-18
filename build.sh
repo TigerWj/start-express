@@ -2,3 +2,6 @@
 set -e
 
 npm install --production
+
+
+
