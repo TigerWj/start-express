@@ -5,4 +5,4 @@ COPY . .
 
 RUN npm install --production
 
-ENTRYPOINT ["bootstrap"]
+ENTRYPOINT ["sh", "-c","./bootstrap"]
